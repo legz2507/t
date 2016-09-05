@@ -1,0 +1,10 @@
+color verde
+#7a9b2a
+
+Color azul claro
+#00adff
+
+tipo de letra
+Arial, Heveltica
+
+

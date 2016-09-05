@@ -1,0 +1,140 @@
+body{
+	width: 960px;
+	margin: 0 auto;
+}
+
+header{
+	padding-top: 40px;
+	background-image: url("../img/top_bg.gif");
+	background-size: 100%;
+	height: 100px;
+}
+header img{
+	float: left;	
+}
+header .img1{
+	margin-top: -20px;
+	margin-left: 10px;
+}
+.top-menu{
+	float: right;
+	width: 60%;
+	list-style: none;
+
+}
+.top-menu li {
+	float: right;
+	width: 18%;
+}
+.top-menu li a {
+	color: white;
+	text-decoration: none;
+}
+
+.line-clear{
+	margin-top: 1px;
+	height: 1px;	
+}
+
+.middle{
+	background-image: url("../img/header.gif");
+	height: 390px;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.intro{	
+	float: left;
+	width: 30%;
+	margin-left: 30px;
+}
+.intro p{
+	color: #AAA;
+}
+
+.intro h1 {
+	margin-bottom: 0;
+	color: #00adff;
+}
+.intro h2, .intro h3{
+	margin-bottom: 0;	
+	color: #AAA;
+}
+
+.bottom nav{
+	background: url("../img/nav.gif") repeat-x;
+	height: 40px;	
+	padding-top:10;
+}
+.bottom ul{
+	margin: 0 50px;
+	color:white;
+	height: 100%;
+	padding-top: 10px;
+	vertical-align: center;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.bottom ul li {
+	float: 	left;
+	width: 10%
+}
+
+.bottom > .top{
+	height: 230px;
+	background-color: #7a9b2a;
+	color: white;
+	padding: 10px 10%;	
+}
+.bottom > .top img{
+	float: left;
+}
+
+.bot {
+	background: url("../img/midbox.gif") repeat-y;
+	height: 250px;
+}
+.bot .elem{
+	float: left;
+	width: 280px;
+	margin-left: 3%;
+	padding: 5px;
+	height: 100%;
+	color: white;
+}
+
+.top div img{
+	float: left
+}
+
+	ul.top-menu li.icon{
+		display: none;
+	}
+
+	ul.top-menu {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #00adff;
+	}
+	/*Responsive design**/
+
+
+
+ 
+/* iPads (landscape) --  --  --  --  -- - */
+@media only screen and (min-width : 768px)  and (max-width : 1024px)  {
+
+
+}
+
+@media only screen and (min-width : 401px) and (max-width: 767px) {
+
+	
+}
+
+@media only screen and (max-width : 400px) {
+	
+}
+
